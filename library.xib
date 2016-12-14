@@ -184,7 +184,7 @@
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
-                        <action selector="homeTap" destination="-1" eventType="touchUpInside" id="Ocf-eo-qZ6"/>
+                        <action selector="homeTap" destination="-1" eventType="touchUpInside" id="XAB-OI-z71"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fs7-xH-Ep0">

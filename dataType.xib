@@ -54,7 +54,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="35"/>
                     <state key="normal" title="void "/>
                     <connections>
-                        <action selector="letterTap:" destination="-1" eventType="touchUpInside" id="SdB-Dk-yrb"/>
+                        <action selector="voidTap:" destination="-1" eventType="touchUpInside" id="Nz5-sY-FLp"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPE-xD-WUQ">
@@ -111,6 +111,21 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="35"/>
                     <state key="normal" title="other"/>
+                    <connections>
+                        <action selector="dataTypeOtherTap:" destination="-1" eventType="touchUpInside" id="d7r-it-BMA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSD-PB-Vft">
+                    <frame key="frameInset" minX="20" minY="17" width="202" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="25"/>
+                    <state key="normal" title="Go Back">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="homeTap" destination="-1" eventType="touchUpInside" id="xXY-ke-vKf"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
