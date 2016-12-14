@@ -22,12 +22,19 @@ DESIGN
 From this point on, 'CBoard' will refer to the iOS custom keyboard extension this repository supplies. The software design will stem from an “origin” CBoard. This “origin” CBoard is the base class for which all the features and functionality stem from. Each subsequent CBoard inherits from this origin CBoard and can be reached from that origin CBoard. On the application’s boot-up, the user sees the origin CBoard with keys that lead to the more feature-specific CBoard.
 
 The specific CBoards featured allow for:
+
   -Creation of Data Containers
+  
   -Creation of variables & functions
+  
   -Stored variables & functions
+  
   -Creation of loops
+  
   -Importing libraries (in name only)
+  
   -Creation of custom data types
+  
   -Storage of custom data types
 
 CONCLUSION
